@@ -1,0 +1,38 @@
+
+.display .card-2{
+  max-height: 300px;
+  overflow: auto;
+  outline: none;
+  border: 1px solid rgb(240, 234, 234);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  padding: 10px;
+  margin:10px 50px;
+}
+.card:nth-child(odd){
+  background-color: rgb(233, 227, 227);
+}
+.form{
+  background-color: white;
+}
+/* .search .container{
+  padding: 50px;
+  border: 1px solid black;
+} */
+.search_input input[type="search"]{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    margin-top: 30px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid gray;
+    background-color: rgba(238, 227, 227, 0.534);
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+}
+.search_input input[type="search"]:hover{
+      border: 2px solid rgb(63, 186, 243);
+}
